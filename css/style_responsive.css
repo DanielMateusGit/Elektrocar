@@ -1,0 +1,191 @@
+@media only screen and (max-width: 1250px){
+    /* desktop */
+    
+
+    .instagram{
+        left:20%;
+    }
+
+   
+    .logo-instagram{
+       left: 17%;
+    }
+
+    #header{
+        height: 50vh;
+    }
+
+    #servizi {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+    }
+
+    #informazioni{
+         padding-bottom: 6rem;
+        padding-top: 6rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 780px){
+    html{
+        font-size: 8px;
+    }
+
+
+    #header{
+        height: 50vh;
+    }
+
+    #photoSlider{
+        height: 40vh;
+    }  
+
+    /* desktop */
+    .facebook{
+        display: none;
+    }
+
+    .instagram{
+        display: none;
+    }
+
+    .E{
+        display: none;
+    }
+    
+    /*barra navigazione */
+    .logo-facebook{
+        display: none;
+    }
+
+    .logo-instagram{
+        display: none;
+    }
+
+    .logo-e{
+        display: none;
+    }
+
+    .only-desktop{
+        display: none;
+    }
+
+    .only-mobile{
+        display: block;
+    }
+
+
+    .servizio{
+
+        width: -webkit-calc( (100% / 5));
+        width: -moz-calc( (100% / 5));
+        height: 20vh;
+        position: relative;
+        text-align: center;
+        float:left;
+    }
+
+
+    .icona{
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+
+    .didascalia {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    #informazioni{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .infocon{
+        width: 35%;
+        padding: 0%;
+        padding-bottom: 4%;
+    }
+    
+}   
+
+
+
+@media only screen and (max-width: 650px){
+
+    *{
+        clip-path: none !important;
+    }
+
+    .slogan{
+        font-size: 4rem;
+
+        left:50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #servizi{
+        padding-bottom: 10rem;
+    }
+
+    .lista-servizi{
+        padding-left:0% ;
+        padding-right:0% ;
+    }
+
+    .servizio{
+        width: -webkit-calc( (100% / 3));
+        width: -moz-calc( (100% / 3));
+
+        margin-bottom: 6rem;
+    }
+
+    .icona{
+        width: 93%;
+        padding: 15%;
+        padding-bottom: 5%;
+    }
+
+    /* informazioni */
+
+    #informazioni{
+        padding-bottom: 3rem;
+    }
+
+    .lista-informazioni{
+        max-width: 70%; ;
+    }
+
+    .informazione{
+        width: -webkit-calc( (100% / 2));
+        width: -moz-calc( (100% / 2));
+
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .informazione:last-of-type{
+        margin-bottom: 0rem;
+    }
+
+    .black{
+        margin-bottom: 2rem;
+    }
+
+    .infocon{
+        width: 40%;
+        padding: 0%;
+        padding-bottom: 4%;
+    }
+
+
+ }

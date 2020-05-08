@@ -1,0 +1,196 @@
+
+
+/*
+
+    Versione cellulare: 
+    tutto incolonnato, la barra di navigazione deve eavere solo "apri menu" e il logo elektrocar
+    inserire un pannello menu con loghi e link
+*/
+
+
+
+/* Correzioni schermi desktop più piccoli */
+
+@media only screen and (max-width: 1360px){
+
+    .osio-sopra{
+        background-size: 135%;
+    }
+
+    .mozzo{
+        background-size: 135%;    
+    }
+
+    .logo-instagram{
+        right: 17%;
+    }
+
+    
+}
+
+/* versione tablet orizzontale*/
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 8px;
+    }
+
+    .logo-instagram{
+        right: 18%;
+    }
+
+    .contenuto-sinistra{
+        left:20%;
+    }
+
+    .contenuto-destra{
+        right:-5%;
+    }
+
+}
+
+/* versione tablet verticale grande*/
+
+@media only screen and (max-width: 780px){
+    
+    html{
+        font-size: 8px;
+    }
+
+    #navigation{
+    
+        padding-top:4rem ;
+        padding-bottom: 4rem;
+
+    }
+
+
+    .box-sede{
+   
+        height: 40vh;
+        margin-top: 0;
+        width: 100%;
+        float: none;
+        
+
+    }
+
+    #sedi{
+        top: 6rem;
+    }
+
+    .osio-sopra{
+        background-size: 100%;
+    }
+
+    .mozzo{
+        background-size: 100%;    
+    }
+
+    #chisiamo{
+        margin-top: 6rem; /* Per la barra di navigazione*/
+        padding-bottom: 0;
+       
+    }
+    .sezione-chisiamo{
+            
+        height: 40vh;
+     
+    }
+
+    
+
+    .heading{
+        font-size: 2.5rem;
+    }
+
+    #news{
+        height: 40vh;
+    }
+
+    .heading-news{
+        width: 20rem;
+        padding-bottom: 1rem;
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+    }
+
+    #footer{
+
+        padding-top:1rem;
+        padding-bottom:1rem;
+    
+    }
+
+    .logo{
+        left: 5%;
+    }
+
+    .logo-facebook{
+        right: 5%;
+    }
+
+
+    /* cambiamenti nel layout */
+    .only-desktop{
+        display: none;
+    }
+
+    .only-mobile{
+        display: block;
+    }
+
+    #news{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    
+       .notizia{
+           float: none;
+           width: 100%;
+          margin-bottom: 3rem;
+       }
+    
+      .data-sinistra{
+          right: 55%;
+          left: unset;
+      }
+    
+      .contenuto-sinistra{
+        right: 0;
+        left: unset;
+    }
+
+   
+}
+
+
+
+
+@media only screen and (max-width: 650px){
+   .sezione-chisiamo{
+       margin: 0 auto;
+       width: 100%;
+       height: 20vh;
+       float: none;
+   }
+
+   #chisiamo{
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+   }
+
+   .separatore{
+    display: none;
+   } 
+}
+
+@media only screen and (min-height: 650px){
+    .osio-sopra{
+        background-size: 150%;
+    }
+
+    .mozzo{
+        background-size: 150%;    
+    }
+}

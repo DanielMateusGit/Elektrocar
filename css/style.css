@@ -1,0 +1,526 @@
+/*Setting iniziale della pagina web */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    box-sizing: border-box; }
+  
+html {
+font-family: 'Lato', sans-serif;
+font-weight: lighter;
+font-size: 10px; 
+scroll-behavior: smooth;
+background-color: #f5f5f5;
+}
+
+*::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.only-mobile{
+    display: none;
+}
+
+/* pannello mobile */
+
+#pannello-mobile{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+    z-index: 4;
+}
+
+.close{
+    position: absolute;
+    cursor: pointer;
+    width:3rem;
+    right: 13%;
+    top: 3%;
+    right: 5%;
+}
+
+.close:hover{
+    opacity: 0.8;
+}
+
+
+.menu-mobile{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+    list-style-type: none;
+}
+
+.menu-mobile li{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .15rem;
+    color:white;
+
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+
+    cursor: pointer;
+}
+
+.menu-mobile li:hover{ 
+    border-bottom: 1px solid white;
+}
+
+
+.social-pan{
+    position: absolute;
+    width: 4rem;
+    margin: 1rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.social-pan:hover{
+    opacity: 0.5;
+}
+
+
+.facebook-pan{
+    left:55%;
+    bottom: 20%;
+}
+
+.instagram-pan{
+    left:50%;
+    bottom: 20%;
+    transform: translate(-50%);
+}
+
+.e-pan{
+    left:40%;
+    bottom: 20%;
+}
+
+
+
+
+
+/* navigazione */
+#navigazione{
+
+    position: fixed;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: black;
+    z-index: 2;
+
+}
+
+#navigazione{
+    position: fixed;
+    width: 100%;
+
+    padding-top:3rem ;
+    padding-bottom: 3rem;
+    opacity: 0.9;
+
+    background-color: black;
+    z-index: 2;
+}
+
+.indice{
+    position: absolute;
+    top: 55%;
+    right: 17%;
+    transform: translateY(-50%);
+
+    list-style-type: none;
+}
+
+.none{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+.indice li{
+    float: left;
+    width: 10rem;
+    margin-left: 1.5rem;
+
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    color:white;
+
+    cursor:pointer;
+}
+
+.indice li:hover{
+    border-bottom: 1px solid white;
+}
+
+.social{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    animation: all .5s;
+    width: 3rem;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo-facebook{
+    left: 13%;
+}
+
+.logo-instagram{
+    left: 16%;
+}
+
+.logo-e{
+    right: 13%;
+}
+
+.logo-elektrocar{
+    position: absolute;
+    width: 11rem;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 13%;
+}
+
+.social:hover{
+    opacity: 0.8;
+}
+
+
+/*header*/
+
+#header{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    background-image: url("../source/slideshow/0.jpg");
+    background-size:cover;
+    background-position: bottom;
+}
+
+#header::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: black;
+    opacity: .8;
+}
+
+
+.icon{
+    position: absolute;
+    height: 3.3rem;
+    transition: all .5s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.icon:hover{
+    opacity: 0.5;
+}
+
+.facebook{
+    left: 15%;
+}
+
+.instagram{
+    left: 19%;
+}
+
+.E{
+    right: 15%;
+}
+
+.elektrocar{
+    top: 3%;
+    left: 13%;
+}
+
+.open{
+    right: 13%;
+}
+
+.open-2{
+    right: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slogan{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 5rem;
+    z-index: 1;
+}
+
+/* Servizi */
+
+#servizi{
+    position: relative;
+    background-color: #4482c3;
+    margin-top: -5%;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    width: 100%;
+
+    clip-path: polygon( 0 0, 48% 0, 50% 5%, 52% 0 , 100% 0, 100% 100%, 52% 100%,50% 95%,48% 100%, 0 100% );
+}
+
+.heading{
+
+    position: relative;
+    margin: 0 auto;
+
+    width: 30rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color:white;
+
+    margin-top: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+    border-bottom: .2px solid white;
+}
+
+.lista-servizi{
+    position:relative;
+    width: 78%; /* 100 - 30 per allinearlo con le icone */
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.servizio{
+
+    width: -webkit-calc( (100% / 5));
+    width: -moz-calc( (100% / 5));
+    height: 24vh;
+    position: relative;
+    text-align: center;
+    float:left;
+}
+
+.icona{
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.didascalia {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Informazioni */
+
+#informazioni{
+    position: relative;
+
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+}
+
+.black{
+    color:black;
+    width: 50rem;
+    margin-bottom: 8rem;
+    border-bottom: 1px solid black;
+}
+
+
+.lista-informazioni{
+
+    position: relative;
+    max-width: 82%;
+    margin: 0 auto;
+
+
+
+}
+
+.informazione{
+    position: relative;
+    text-align: center;
+    
+    width: calc( (100% / 4)) ;
+    float: left;
+}
+
+.infocon{
+    width: 25%;
+}
+
+
+.titolo-informazione{
+
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .7rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+}
+
+.didascalia-informazione{
+    display: block;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+/* Slider */
+
+#photoSlider{
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+    transition: all 1.4s;
+
+   
+    transition: all 1s;
+
+    clip-path: polygon( 0 0, 48% 0, 50% 5%, 52% 0 , 100% 0, 100% 95%, 52% 95%,50% 100%,48% 95%, 0 95% );
+}
+
+/* Map */
+
+#map{
+    position: relative;
+}
+
+.location{
+    width: 38rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 8rem;
+    
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-size: 2.3rem;
+
+    padding-bottom: 1rem;
+
+    border-bottom: .2px solid black;
+}
+
+.locationSub{
+    width: 38rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 8rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+}
+
+/* Animazioni */
+
+.animated1 {
+    animation: vanishFromBottom1 1.5s backwards;
+}
+
+.animated2{
+    animation: vanishFromBottom2 1.5s backwards;
+}
+
+.animated3{
+    animation: vanishTop .5s backwards;
+}
+
+.invisible{
+    display: none;
+}
+
+@keyframes vanishFromBottom1 {
+
+
+    0% {
+      opacity: 0; 
+      transform: translate(-50%,100px);
+    }
+
+    50% {
+        opacity: 1;
+    } 
+
+    100%{
+
+        transform: translate(-50%,0);
+    }
+    
+}
+
+
+@keyframes vanishFromBottom2{
+
+    0% {
+        opacity: 0; 
+        transform: translateY(50px);
+        }
+    
+        100%{
+        transform: translateY(0);
+        opacity: 1;
+        }
+
+}
+
+
+@keyframes vanishTop{
+
+    0% {
+        opacity: 0; 
+        transform: translateY(-50px);
+        }
+    
+        100%{
+        transform: translateY(0);
+        opacity: 1;
+        }
+
+}
