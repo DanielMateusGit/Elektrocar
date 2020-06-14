@@ -189,6 +189,9 @@
     width: 100%;
    }
 
+   .descrizione-testo{
+    padding-bottom: 10rem;
+   }
    .separatore{
     display: none;
    } 
