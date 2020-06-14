@@ -20,7 +20,7 @@ var slideshow = (function(){
         var photoSlider = document.querySelector('#photoSlider');
 
         // Change 
-        photoSlider.style.backgroundImage = 'url("source/slideshow/'+ numeroFotografia + '.jpg")';
+        photoSlider.style.backgroundImage = 'url("source/slideshow_mozzo/'+ numeroFotografia + '.jpg")';
 
         setTimeout(slideshow, 3000); // Change image every 2 seconds
     
