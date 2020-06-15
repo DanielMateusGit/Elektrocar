@@ -194,6 +194,8 @@
     float: left;
 }
 
+
+
 .box-sede::after{
 
     position: absolute;
@@ -205,7 +207,13 @@
     top: 0;
     left: 0;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.7;
+
+    transition: all .5s;
+}
+
+.box-sede:hover:after{
+    opacity: 0.5;
 }
 
 .osio-sopra{
@@ -213,6 +221,12 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
+
+    transition: all 1s;
+}
+
+.osio-sopra:hover{
+    background-size: 170%;
 }
 
 .mozzo{
@@ -220,6 +234,12 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
+
+    transition: all 1s;
+}
+
+.mozzo:hover{
+    background-size: 180%;
 }
 
 .hero-box{
