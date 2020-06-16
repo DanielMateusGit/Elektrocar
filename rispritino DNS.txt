@@ -1,0 +1,6 @@
+// quelli del tutorial e :
+
+A @ Parked 600s
+CNAME elektrocarbg.com @ 1h 
+CNAME www @ 1h 
+CNAME _domainconnect _domainconnect.gd.domaincontrol.com 1h 
