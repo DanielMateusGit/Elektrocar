@@ -163,6 +163,9 @@
         left: unset;
     }
 
+    .immagine_notizia{
+        width: 80%;
+    }
    
 }
 
