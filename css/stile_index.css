@@ -218,9 +218,10 @@
 
 .osio-sopra{
     background-image: url("../source/sedi/osio.jpg");
-    background-size: 100%;
+
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-size: cover;
+    background-position: center;
 
     transition: all 1s;
 }
